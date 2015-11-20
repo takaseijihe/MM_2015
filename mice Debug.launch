@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.renesas.cdt.launch.dsf.gdbsim.launchConfigurationType">
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value="C:/WorkSpace\gdbGNU.ini"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.protocol" value="mi"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="${eclipse_home}/../DebugComp/sh-elf-gdb"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="C:\Renesas\e2_studio\DebugComp\sh-elf-gdb"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\mice.x"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="mice"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="%com.renesas.cdt.shc.hardwaredebug.win32.configuration.Id.734229887"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/mice"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+</launchConfiguration>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.renesas.linkersection.model:SectionContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.renesas.linkersection.model="http:///LinkerSection.ecore">
+  <sections name="DVECTTBL">
+    <sectionAddress xsi:type="com.renesas.linkersection.model:FixedAddress"/>
+  </sections>
+  <sections name="DINTTBL"/>
+  <sections name="PIntPRG"/>
+  <sections name="PResetPRG">
+    <sectionAddress xsi:type="com.renesas.linkersection.model:FixedAddress" fixedAddress="2048"/>
+  </sections>
+  <sections name="P">
+    <sectionAddress xsi:type="com.renesas.linkersection.model:FixedAddress" fixedAddress="4096"/>
+  </sections>
+  <sections name="C"/>
+  <sections name="C$BSEC"/>
+  <sections name="C$DSEC"/>
+  <sections name="D"/>
+  <sections name="B">
+    <sectionAddress xsi:type="com.renesas.linkersection.model:FixedAddress" fixedAddress="4294942720"/>
+  </sections>
+  <sections name="R"/>
+  <sections name="S">
+    <sectionAddress xsi:type="com.renesas.linkersection.model:FixedAddress" fixedAddress="4294949888"/>
+  </sections>
+</com.renesas.linkersection.model:SectionContainer>
