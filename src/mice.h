@@ -199,7 +199,7 @@ volatile void interrupt_cmt0() //割り込み関数
 	velocity_left = velocity - control - (angle_velocity*length_tread_left*pai)/360;
 	velocity_right = velocity + control + (angle_velocity*length_tread_left*pai)/360;
 	tgra_left = (int) (steplength_left * (6250000) / velocity_left);
-	tgra_right = (int) (steplength_right * (6250000) / velocity_right);
+	tgra_right = (int) (steplength_right * (6250000) / velocity_right);//komennto
 
 }
 volatile void input_daikei(int vel_min, int vel_max, int dis_max, int accel) {
