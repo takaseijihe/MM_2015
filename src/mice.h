@@ -222,7 +222,7 @@ volatile void turn(int vel, int vel_angle, int angle) {
 	T = 0;
 }
 
-volatile void tyousinti_right(int vel_min, int vel_max, float angle, int accel) {
+volatile void tyousinti_right(int vel_min, int vel_max, float angle, int accel) {//nihonngo
 	P_control_flag = 1;
 	CWCCW_right = 0;
 	CWCCW_left = 0;
